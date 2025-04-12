@@ -29,11 +29,17 @@ Request:
 
  {
         "id": 5,
+        
         "name": "Kavya",
+        
         "phone": 7389803541,
+        
         "email": "kavya@123",
+        
         "gender": "Female",
+        
         "experience": "[1,2,3,4,5 and others]",
+        
         "skills": "[HTML,CSS,JavaScript,React.js,Node.js,Python]"
     } 
     
@@ -44,7 +50,9 @@ Response:
 API 2 
 
 Path: /employee/
+
 Method: GET
+
 Description:
 Returns a list of all employees 
 
@@ -53,20 +61,25 @@ Response:
 [{
    "id": 5,
         "name": "Kavya",
+        
         "phone": 7389803541,
+        
         "email": "kavya@123",
+        
         "gender": "Female",
+        
         "experience": "[1,2,3,4,5 and others]",
+        
         "skills": "[HTML,CSS,JavaScript,React.js,Node.js,Python]",
-        ......
-
-        }] 
+        ......}] 
         
 
 API 3
 
 Path: /employee/:id/
+
 Method: PUT
+
 Description:
 Updates the details of a employee in the (database) based on the employee id
 
@@ -76,9 +89,12 @@ Respnse:
 API 4
 
 Path: /employee/:id/
+
 Method: DELETE
+
 Description:
 Deletes a employee from the (database) based on the id 
+
 Response:
   "employee Removed" 
 

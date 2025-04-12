@@ -17,7 +17,7 @@ experience INTEGER
 
 skills TEXT 
 
-API 1
+## API 1
 
 Path: /employee/
 
@@ -47,7 +47,7 @@ Response:
   "Employee Successfully Added"
   
 
-API 2 
+## API 2 
 
 Path: /employee/
 
@@ -59,7 +59,8 @@ Returns a list of all employees
 Response:
 
 [{
-   "id": 5,
+         "id": 5,
+         
         "name": "Kavya",
         
         "phone": 7389803541,
@@ -74,7 +75,7 @@ Response:
         ......}] 
         
 
-API 3
+## API 3
 
 Path: /employee/:id/
 
@@ -86,7 +87,7 @@ Updates the details of a employee in the (database) based on the employee id
 Respnse:
 "Employee updated successfully"
 
-API 4
+## API 4
 
 Path: /employee/:id/
 

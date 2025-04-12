@@ -2,19 +2,31 @@ Run server with node app.js
 Write APIs to perform operations on the table employee containing the following columns,
 
 Columns	Type
+
 id	INTEGER
+
 name	TEXT
+
 phone	INTEGER
+
 email	TEXT
+
 gender TEXT
+
 experience INTEGER 
+
 skills TEXT 
 
 API 1
+
 Path: /employee/
+
 Method: POST
+
 Description:  Creates a new employee in the employee (database),employee id.
+
 Request: 
+
  {
         "id": 5,
         "name": "Kavya",
@@ -24,16 +36,20 @@ Request:
         "experience": "[1,2,3,4,5 and others]",
         "skills": "[HTML,CSS,JavaScript,React.js,Node.js,Python]"
     } 
+    
 Response: 
   "Employee Successfully Added"
+  
 
 API 2 
+
 Path: /employee/
 Method: GET
 Description:
 Returns a list of all employees 
 
 Response:
+
 [{
    "id": 5,
         "name": "Kavya",
@@ -41,12 +57,14 @@ Response:
         "email": "kavya@123",
         "gender": "Female",
         "experience": "[1,2,3,4,5 and others]",
-        "skills": "[HTML,CSS,JavaScript,React.js,Node.js,Python]"},
+        "skills": "[HTML,CSS,JavaScript,React.js,Node.js,Python]",
         ......
 
-        ] 
+        }] 
+        
 
 API 3
+
 Path: /employee/:id/
 Method: PUT
 Description:
@@ -56,6 +74,7 @@ Respnse:
 "Employee updated successfully"
 
 API 4
+
 Path: /employee/:id/
 Method: DELETE
 Description:
